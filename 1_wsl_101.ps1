@@ -17,5 +17,5 @@ docker build .\go_files\ -t wsl_distro
 docker run -it wsl_distro zsh
 
 # In another session because docker is weird like that
-docker export --output D:\GitHub\summit2020\wsl_distro.tar <Container ID>
+docker export --output D:\GitHub\summit-2020\wsl_distro.tar <Container ID>
 

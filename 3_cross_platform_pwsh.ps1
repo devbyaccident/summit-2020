@@ -1,5 +1,5 @@
 # Open a new pane with WSL Linux, run this
-pwsh -wd /mnt/d/GitHub/summit2020
+pwsh -wd /mnt/d/GitHub/summit-2020
 
 # PowerShell 7 doesn't care about slashes in file paths
 Test-Path .\directorytest/this\is/a\really/long/directory\

@@ -32,7 +32,7 @@ choco list -lo
 choco list -lo | wsl grep terraform
 
 # You can also use it with Visual Studio Code Remote Workspaces
-code --remote wsl+GoDistro /mnt/d/GitHub/summit2020/go_files
+code --remote wsl+GoDistro /mnt/d/GitHub/summit-2020/go_files
 
 # If you're following the best practice and versioning your WSL distro, 
 # you can use the VS Code Remote Containers extension with the Dockerfile you build your WSL distro with
