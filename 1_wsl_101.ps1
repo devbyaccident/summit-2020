@@ -13,9 +13,9 @@ wsl -l -v
 wsl --export GoDistro ./NewGoDistro.tar
 
 # Import WSL from a container
-docker build .\go_files\ -t wsl_distro
-docker run -it wsl_distro zsh
+docker build .\go_files\ -t go_distro
+docker run -it go_distro zsh
 
 # In another session because docker is weird like that
-docker export --output D:\GitHub\summit-2020\wsl_distro.tar <Container ID>
+docker export --output D:\GitHub\summit-2020\GoDist.tar <Container ID>
 

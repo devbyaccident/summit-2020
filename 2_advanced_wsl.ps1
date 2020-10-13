@@ -23,8 +23,10 @@ which whoami
 which whoami.exe
 terraform version # Doesn't work on my default wsl
 terraform.exe version # Does work on my default wsl
+alias terraform="terraform.exe" # Now can use terraform.exe in scripts on WSL
 # Change directory to ../<Any terraform repo>
-terraform.exe init
+terraform init
+pwsh.exe # This may be a bad idea in WSL... 
 # Exit the distro
 
 # You can also pipe Windows commands into WSL
